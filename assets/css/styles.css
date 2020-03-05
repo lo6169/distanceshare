@@ -1,0 +1,51 @@
+body
+{
+
+}
+
+.header
+{
+    border-color: #043252;
+    border-width: 1px;
+    border-style: solid;
+    padding: 2%;
+    height: 4em;
+}
+
+.header .headerimgleft
+{
+    float: left;
+}
+
+.header .headerimgright
+{
+    float: right;
+}
+
+button
+{
+    border: none;
+}
+
+.navigation
+{
+    display: none;
+    color: #E2865F;
+    background-color: #043252;
+    padding: 0 5px 0 5px;
+}
+
+.navigation a
+{
+    color: #E2865F;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.navigation a:hover
+{
+    background-color: #0a69ad;
+}
+

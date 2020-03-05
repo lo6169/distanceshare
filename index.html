@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Distance Share</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="header">
+        <img src="assets/media/dslogo.jpg" alt="DS Logo" title = "DS logo" class="headerimgleft" style="height:100%">
+        <button type="button" onclick="display()" style="height: 100%; float: right;">
+            <img src="assets/media/hamburger.png" alt="hamburger menu" title="hamburger menu" class="headerimgright" style="height: 100%">
+        </button>
+
+    </div>
+
+    <div id="nav" class="navigation">
+        <a href="post.html">Post</a>
+        <a href="request.html">Request</a>
+        <a href="search.html">Search</a>
+        <a href="profile.html">Profile</a>
+        <a href="history.html">History</a>
+        <a href="payment.html">Payment</a>
+        <a href="help.html">Help</a>
+        <a href="safety.html">Safety</a>
+        <a href="settings.html">Settings</a>
+    </div>
+
+    <script>
+        function display()
+        {
+            var nav = document.getElementById("nav");
+            if (nav.style.display === "block")
+            {
+                nav.style.display = "none";
+            }
+            else
+            {
+                nav.style.display = "block";
+            }
+        }
+    </script>
+
+</body>
+</html>
